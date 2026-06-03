@@ -1,0 +1,23 @@
+services:
+  smartstrm:
+    container_name: ${CONTAINER_NAME}
+    image: cp0204/smartstrm:latest
+    restart: unless-stopped
+    environment:
+      - PORT=8024
+      - ADMIN_USERNAME=${ADMIN_USERNAME}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
+    volumes:
+      - '${DATA_PATH_CONFIG}:/app/config'
+      - '${DATA_PATH_LOGS}:/app/logs'
+      - '${DATA_PATH_STRM}:/strm'
+    ports:
+      - '${PANEL_APP_PORT_HTTP}:8024'
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true

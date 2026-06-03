@@ -1,0 +1,101 @@
+additionalProperties:
+  formFields:
+    - default: 8024
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: WebUI Port
+      labelZh: 网页端口
+      required: true
+      rule: paramPort
+      type: number
+      label:
+        en: WebUI Port
+        es-es: Puerto web
+        ja: WebUI ポート
+        ms: Port WebUI
+        pt-br: Porta WebUI
+        ru: Порт WebUI
+        ko: WebUI 포트
+        zh-Hant: WebUI 埠
+        zh: WebUI 端口
+        tr: WebUI portu
+    - default: ./data/config
+      edit: true
+      envKey: DATA_PATH_CONFIG
+      labelEn: Config folder path
+      labelZh: 配置文件夹路径
+      label:
+        en: 'Config folder path'
+        zh: '配置文件夹路径'
+        zh-Hant: '設定資料夾路徑'
+        ja: '設定フォルダーパス'
+        ko: '구성 폴더 경로'
+        ru: 'Путь к папке конфигурации'
+        ms: 'Laluan folder konfigurasi'
+        pt-br: 'Caminho da pasta de configuração'
+      required: true
+      type: text
+    - default: ./data/logs
+      edit: true
+      envKey: DATA_PATH_LOGS
+      labelEn: Logs folder path
+      labelZh: 日志文件夹路径
+      label:
+        en: 'Logs folder path'
+        zh: '日志文件夹路径'
+        zh-Hant: '日誌資料夾路徑'
+        ja: 'ログフォルダーパス'
+        ko: '로그 폴더 경로'
+        ru: 'Путь к папке логов'
+        ms: 'Laluan folder log'
+        pt-br: 'Caminho da pasta de logs '
+      required: false
+      type: text
+    - default: ./data/strm
+      edit: true
+      envKey: DATA_PATH_STRM
+      labelEn: STRM generation folder path (internal "/strm")
+      labelZh: STRM 生成目录路径 (内部"/strm")
+      label:
+        en: 'STRM generation folder path (internal "/strm")'
+        zh: 'STRM 生成目录路径 (内部"/strm")'
+        zh-Hant: 'STRM 生成目錄路徑 (內部"/strm")'
+        ja: 'STRM生成フォルダーパス (内部"/strm")'
+        ko: 'STRM 생성 폴더 경로 (내부 "/strm")'
+        ru: 'Путь к папке генерации STRM (внутри "/strm")'
+        ms: 'Laluan folder penjanaan STRM (dalaman "/strm")'
+        pt-br: 'Caminho da pasta de geração STRM (interno "/strm")'
+      required: true
+      type: text
+    - default: admin
+      edit: true
+      envKey: ADMIN_USERNAME
+      labelEn: Admin username
+      labelZh: 管理员用户名
+      label:
+        en: 'Admin username'
+        zh: '管理员用户名'
+        zh-Hant: '管理員用戶名'
+        ja: '管理者ユーザー名'
+        ko: '관리자 사용자 이름'
+        ru: 'Имя пользователя администратора'
+        ms: 'Nama pengguna pentadbir'
+        pt-br: 'Nome de usuário administrador'
+      required: true
+      type: text
+    - default: admin123
+      edit: true
+      envKey: ADMIN_PASSWORD
+      labelEn: Admin password
+      labelZh: 管理员密码
+      label:
+        en: 'Admin password'
+        zh: '管理员密码'
+        zh-Hant: '管理員密碼'
+        ja: '管理者パスワード'
+        ko: '관리자 비밀번호'
+        ru: 'Пароль администратора'
+        ms: 'Kata laluan pentadbir'
+        pt-br: 'Senha do administrador'
+      required: true
+      type: password

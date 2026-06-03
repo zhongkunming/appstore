@@ -1,0 +1,32 @@
+name: SmartSTRM
+tags:
+  - 工具
+title: 智能 STRM 文件生成工具
+description: 智能 STRM 文件生成工具
+additionalProperties:
+  key: smartstrm
+  name: SmartSTRM
+  tags:
+    - Tool
+  shortDescZh: 智能 STRM 文件生成工具
+  shortDescEn: Intelligent STRM file generation tool
+  description:
+    en: Intelligent tool for generating STRM files with advanced features
+    zh: 具有高级功能的智能 STRM 文件生成工具
+    zh-Hant: 具有高級功能的智能 STRM 文件生成工具
+    ja: 高度な機能を備えたインテリジェントなSTRMファイル生成ツール
+    ko: 고급 기능을 갖춘 지능형 STRM 파일 생성 도구
+    ru: Интеллектуальный инструмент для генерации STRM-файлов с расширенными функциями
+    ms: Alat pintar untuk menjana fail STRM dengan ciri lanjutan
+    pt-br: Ferramenta inteligente para geração de arquivos STRM com recursos avançados
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  recommend: 0
+  website: https://github.com/cp0204/smartstrm
+  github: https://github.com/cp0204/smartstrm
+  document: https://github.com/cp0204/smartstrm#readme
+
+  architectures:
+    - amd64
+    - arm64
