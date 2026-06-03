@@ -11,9 +11,9 @@ services:
       - CHARSET=1
       - PAGE_SIZE=32
     volumes:
-      - ${DATA_PATH_DATA}:/home/dmdba/data
+      - '${DATA_PATH_DATA}:/home/dmdba/data'
     ports:
-      - ${DATABASE_PORT}:5236
+      - '${DATABASE_PORT}:5236'
     networks:
       - 1panel-network
     labels:
