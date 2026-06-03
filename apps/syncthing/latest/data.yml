@@ -16,7 +16,7 @@ additionalProperties:
       type: text
     - default: ./data/config
       edit: true
-      envKey: DATA_PATH_APP_CONFIG
+      envKey: DATA_PATH_CONFIG
       labelEn: Config folder path
       labelZh: 配置文件夹路径
       label:

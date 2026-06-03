@@ -10,7 +10,7 @@ services:
       - TZ=${TIME_ZONE}
       - HOME=/data
     volumes:
-      - ${DATA_PATH_APP_CONFIG}:/config
+      - ${DATA_PATH_CONFIG}:/config
       - ${DATA_PATH_DATA}:/data
     network_mode: host
     labels:
