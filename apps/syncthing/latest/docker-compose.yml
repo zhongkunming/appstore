@@ -10,8 +10,8 @@ services:
       - TZ=${TIME_ZONE}
       - HOME=/data
     volumes:
-      - ${DATA_PATH_CONFIG}:/config
-      - ${DATA_PATH_DATA}:/data
+      - '${DATA_PATH_CONFIG}:/config'
+      - '${DATA_PATH_DATA}:/data'
     network_mode: host
     labels:
       createdBy: "Apps"
