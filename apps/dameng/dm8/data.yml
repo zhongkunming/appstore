@@ -1,0 +1,23 @@
+additionalProperties:
+  formFields:
+    - default: ./data/data
+      edit: true
+      envKey: DATA_PATH_DATA
+      label:
+        zh: '数据文件夹'
+      required: true
+      type: text
+    - default: "5236"
+      edit: true
+      envKey: DATABASE_PORT
+      label:
+        zh: '数据库端口'
+      required: true
+      type: text
+    - default: SYSDBA@123abc
+      edit: true
+      envKey: SYSDBA_PASSWORD
+      label:
+        zh: 'SYSDBA密码'
+      required: true
+      type: password

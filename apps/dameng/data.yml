@@ -1,0 +1,32 @@
+name: 达梦数据库
+tags:
+  - 数据库
+title: 国产高性能数据库管理系统
+description: 国产高性能数据库管理系统
+additionalProperties:
+  key: dameng
+  name: 达梦数据库
+  tags:
+    - Database
+  shortDescZh: 国产高性能数据库管理系统
+  shortDescEn: High-performance domestic database management system
+  description:
+    en: High-performance domestic database management system with full自主知识产权
+    zh: 具有完全自主知识产权的高性能国产数据库管理系统
+    zh-Hant: 具有完全自主知識產權的高性能國產數據庫管理系統
+    ja: 完全な独自知的財産権を持つ高性能国産データベース管理システム
+    ko: 완전한 자체 지적 재산권을 가진 고성능 국산 데이터베이스 관리 시스템
+    ru: Высокопроизводительная отечественная система управления базами данных с полной собственной интеллектуальной собственностью
+    ms: Sistem pengurusan pangkalan data domestik berprestasi tinggi dengan hak harta intelek tersendiri sepenuhnya
+    pt-br: Sistema de gerenciamento de banco de dados doméstico de alto desempenho com propriedade intelectual própria completa
+  type: database
+  crossVersionUpdate: true
+  limit: 1
+  recommend: 0
+  website: https://www.dameng.com
+  github: https://www.dameng.com
+  document: https://eco.dameng.com/document/dm/zh-cn/start/index.html
+
+  architectures:
+    - amd64
+    - arm64
