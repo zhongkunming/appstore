@@ -1,7 +1,7 @@
 services:
   dockhand:
     container_name: ${CONTAINER_NAME}
-    image: dockhand/dockhand:latest
+    image: fnsys/dockhand:latest
     restart: always
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock'
