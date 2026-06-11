@@ -1,0 +1,32 @@
+name: DockHand
+tags:
+  - 工具
+title: Docker 管理工具
+description: 轻量级 Docker 容器管理工具
+additionalProperties:
+  key: dockhand
+  name: DockHand
+  tags:
+    - Utility
+  shortDescZh: 轻量级 Docker 容器管理工具
+  shortDescEn: Lightweight Docker container management tool
+  description:
+    en: Lightweight and easy-to-use Docker container management tool with web interface
+    zh: 轻量级易用的 Docker 容器管理工具,提供 Web 界面
+    zh-Hant: 輕量級易用的 Docker 容器管理工具,提供 Web 介面
+    ja: Webインターフェースを備えた軽量で使いやすいDockerコンテナ管理ツール
+    ko: 웹 인터페이스가 있는 경량 사용하기 쉬운 Docker 컨테이너 관리 도구
+    ru: Легкий и простой в использовании инструмент управления контейнерами Docker с веб-интерфейсом
+    ms: Alat pengurusan kontena Docker yang ringan dan mudah digunakan dengan antara muka web
+    pt-br: Ferramenta de gerenciamento de contêineres Docker leve e fácil de usar com interface web
+  type: utility
+  crossVersionUpdate: true
+  limit: 1
+  recommend: 0
+  website: https://github.com/dockhand/dockhand
+  github: https://github.com/dockhand/dockhand
+  document: https://github.com/dockhand/dockhand/wiki
+
+  architectures:
+    - amd64
+    - arm64

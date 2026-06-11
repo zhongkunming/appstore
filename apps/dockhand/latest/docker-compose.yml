@@ -1,0 +1,18 @@
+services:
+  dockhand:
+    container_name: ${CONTAINER_NAME}
+    image: dockhand/dockhand:latest
+    restart: always
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock'
+      - '${DATA_PATH_DATA}:/app/data'
+    ports:
+      - '${PANEL_APP_PORT_HTTP}:3000'
+    networks:
+      - 1panel-network
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true
